@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Freelance de website",
+      "type": "income",
+      "category": "Dev",
+      "amount": 6000,
+      "createdAt": "2022-02-12 09:00:00"
+    },
+    {
+      "id": 2,
+      "description": "Corretora",
+      "type": "outcome",
+      "category": "investimento",
+      "amount": 3000,
+      "createdAt": "2022-02-12 09:30:00"
+    },
+    {
+      "description": "MacBook",
+      "category": "compra",
+      "type": "outcome",
+      "amount": 20000,
+      "createdAt": "2023-07-05T19:27:18.093Z",
+      "id": 3
+    }
+  ]
+}

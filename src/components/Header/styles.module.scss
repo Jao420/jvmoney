@@ -1,0 +1,50 @@
+.Container {
+  background: var(--gray);
+}
+
+.Content {
+  max-width: 1120px;
+  margin: 0 auto;
+
+  padding: 2rem 1rem 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    @media (max-width: 375px) {
+      width: 9rem;
+    }
+  }
+
+  button {
+    font-size: 14px;
+    color: #fff;
+    background: var(--white-gray);
+    border: 0;
+    padding: 0 0.7rem;
+    border-radius: 0.25rem;
+    height: 3rem;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(1.2);
+    }
+    &:focus {
+      outline: 2px solid rgba(255, 255, 255, 0.6);
+      outline-offset: 1px;
+    }
+
+    @media (max-width: 375px) {
+      font-size: 13px;
+      padding: 0 0.5rem;
+      height: 2.5rem;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 1rem;
+      padding: 0 2rem;
+    }
+  }
+}
