@@ -24,5 +24,5 @@
 # Installing:
 
 ```bash
-$ git clone git@github.com:Jao420/jvmoney.git
+$ git clone git@github.com:JaoVSP/jvmoney.git
 ```
